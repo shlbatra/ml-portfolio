@@ -1,16 +1,72 @@
 # ML / Data Engineer
 
-#### Technical Skills: Python, SQL, AWS, Snowflake, MATLAB
+#### Technical Skills: 
+##### Cloud: 
+- GCP
+- AWS
+##### Database Programming: 
+- Relational Databases (IBM DB2, SQL Server, Teradata),
+- BigQuery,
+- RedShift
+#### Programming Language: 
+- Python
+- Bash
+- SQL
+#### Data Pipeline Tools: , 
+- DBT
+- DataProc(Spark), 
+- DataFlow(Beam)
+- Informatica 9.1
+#### ML Packages:
+- scikit-learn
+- numpy
+- pandas
+- ray
+- sklearn
+- tensorflow
+- pytorch
+- ray / xgboost-ray
+- auto ml
+- comet
+- mlflow
+##### ML Deployment Tools: 
+- SageMaker
+- Vertex
+- LLMs (Vertex AI Reasoning Agent)
+- Langchain
+- TFX
+- Kubeflow 
+#### Dev Ops 
+- Airflow
+- Git (CI/CD)
+- JupyterLab
+- VS Code,
+- Docker,
+- Kubernetes 
+##### Certifications: 
+- Data Engineering Nanodegree (Udacity),
+- Deep Learning Specialization (Coursera),
+- Natural Language Processing Specialization (Coursera),
+- Splunk Fundamentals & Advanced Searching (Splunk),
+- GIAC Security Essentials (GSEC)
+
 
 ## Education
-- Ph.D., Physics | The University of Texas at Dallas (_May 2022_)								       		
-- M.S., Physics	| The University of Texas at Dallas (_December 2019_)	 			        		
-- B.S., Physics | The University of Texas at Dallas (_May 2017_)
+- Machine Learning Engineer | FourthBrain.AI (_Sep 2021_)								       		
+- M.S., Data Science	| The University of Texas at Austin (_May 2015_)	 			        		
+- B.Tech., Electronics & Communication | GGS Indraprastha University (_June 2010_)
 
 ## Work Experience
-**Data Scientist @ Toyota Financial Services (_June 2022 - Present_)**
-- Uncovered and corrected missing step in production data pipeline which impacted over 70% of active accounts
-- Redeveloped loan originations model which resulted in 50% improvement in model performance and saving 1 million dollars in potential losses
+**Data / Machine Learning Engineer @ Shopify (_July 2022 - Present_)**
+-	Migrated ML pipelines (XGBoost) from internally supported ML platform (Merlin) to Vertex (GCP) using TFX deployed on vertex pipelines, the training and inference pipelines were triggered via airflow. 
+-	Experimented with KubeFlow to build ML pipelines supporting PyTorch model deployment, training and inference.
+-	Built custom components within TFX to support end to end ml pipeline including retraining and enable calibration of predicted probabilities for trained models.
+-	Built an LLM system using gpt4o to identify shop product and recommend first action based on ticket metadata and shop context.
+-	Built and improved fraud detection models for no intent to ship and card cashing use cases by developing better features related to orders, billing, and admin navigation, with hit rate (precision) improvement of 10bps.
+-	Built streaming features for real time training and inference for card cashing fraud detection using apache beam on dataflow.
+-	Contributed to python package for model training, calibration, inference, and monitoring using ray on kubernetes and model management on comet, the package was built on top of internal ML platform called Merlin. The package was used to deploy fraud related models to production trained using xgboost-ray package to terminate fraud shops.  
+
+
 
 **Data Science Consultant @ Shawhin Talebi Ventures LLC (_December 2020 - Present_)**
 - Conducted data collection, processing, and analysis for novel study evaluating the impact of over 300 biometrics variables on human performance in hyper-realistic, live-fire training scenarios
