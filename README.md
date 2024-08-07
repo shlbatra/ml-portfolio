@@ -1,56 +1,5 @@
 # ML / Data Engineer
 
-#### Technical Skills: 
-##### Cloud: 
-- GCP
-- AWS
-##### Database Programming: 
-- Relational Databases (IBM DB2, SQL Server, Teradata),
-- BigQuery,
-- RedShift
-#### Programming Language: 
-- Python
-- Bash
-- SQL
-#### Data Pipeline Tools: , 
-- DBT
-- DataProc(Spark), 
-- DataFlow(Beam)
-- Informatica 9.1
-#### ML Packages:
-- scikit-learn
-- numpy
-- pandas
-- ray
-- sklearn
-- tensorflow
-- pytorch
-- ray / xgboost-ray
-- auto ml
-- comet
-- mlflow
-##### ML Deployment Tools: 
-- SageMaker
-- Vertex
-- LLMs (Vertex AI Reasoning Agent)
-- Langchain
-- TFX
-- Kubeflow 
-#### Dev Ops 
-- Airflow
-- Git (CI/CD)
-- JupyterLab
-- VS Code,
-- Docker,
-- Kubernetes 
-##### Certifications: 
-- Data Engineering Nanodegree (Udacity),
-- Deep Learning Specialization (Coursera),
-- Natural Language Processing Specialization (Coursera),
-- Splunk Fundamentals & Advanced Searching (Splunk),
-- GIAC Security Essentials (GSEC)
-
-
 ## Education
 - Machine Learning Engineer | FourthBrain.AI (_Sep 2021_)								       		
 - M.S., Data Science	| The University of Texas at Austin (_May 2015_)	 			        		
@@ -66,35 +15,50 @@
 -	Built streaming features for real time training and inference for card cashing fraud detection using apache beam on dataflow.
 -	Contributed to python package for model training, calibration, inference, and monitoring using ray on kubernetes and model management on comet, the package was built on top of internal ML platform called Merlin. The package was used to deploy fraud related models to production trained using xgboost-ray package to terminate fraud shops.  
 
+**Sr Data Scientist @ Dell (_May 2018 - July 2022_)**
+- Manage the AI platform & strategy, stakeholder engagement and technical work across 4 data scientists & data engineers.
+- Built AI systems & Data Pipelines 
+  - Setting up the Analytics Data Lake (Tools used - S3, Spark, PostGres Database, Airflow, Containers, Kubernetes) to incorporate data from multiple internal & cloud-based sources within Security Organization using APIs.
+  - Created infection risk KPI across countries and provided time to return using covid public datasets (RMSE 10 days) using LSTM model. The model was shared across Security Executive Council and 500 companies across the globe.
+  - Classical imbalanced fraud risk scoring model to detect fraudulent emails, using PySpark for data ingestion, and random forest for model training, with deployment on API end point. (Prec 30-50%, Rec 95%+, $1M + saved). 
+  - Identified characteristics of employees susceptible to phishing based on phishing simulations data (Prec 83% & Rec 89%). Logistic regression model used.
+  - Applied Anomaly Detection techniques using an ensemble of Local Outlier Factor, Isolation Forest & AutoEncoder to identify anomalous traffic using Producer Consumer Ratio, Session & Volume of traffic across network.
 
+**Data Scientist @ Dell (_July 2015 - Feb 2018_)**
+-	Built Metrics & KPI from ground up for Servers Business Unit on weekly operational performance (100+ attendees).
+- Applied ML models in sales domain
+  - Customer market segmentation using K Prototype based on company attributes, and recency, frequency & monetary attributes, to label customers into different market segments for sales targeting. 
+  -	Commodity data clustering to identify trends of most common vs least configurations using K Medoids with Jaccard similarity.
+  -	Clustering using KNN & Quantile Regression to identify customer software spend across different market segments based on company, and recency, frequency & monetary attributes for all customers.
+  -	Lead generation cross-sell model to help sales to identify better candidates for cold calling.
 
-**Data Science Consultant @ Shawhin Talebi Ventures LLC (_December 2020 - Present_)**
-- Conducted data collection, processing, and analysis for novel study evaluating the impact of over 300 biometrics variables on human performance in hyper-realistic, live-fire training scenarios
-- Applied unsupervised deep learning approaches to longitudinal ICU data to discover novel sepsis sub-phenotypes
+**Software Developer @ AON Hewitt (_Nov 2013 - May 2014_)**
+-	Utilized informatica to build data pipelines & hadoop for data storage for ingestion of employee workday data.
+
+**Software Developer @ Computer Sciences Corporation (_Nov 2013 - May 2014_)**
+-	Built ETL Data pipelines using SAS & Informatica to pull data feeds to create data warehouse & data marts in SQL & IBM DB2 using Fact/Dims. 
 
 ## Projects
-### Data-Driven EEG Band Discovery with Decision Trees
-[Publication](https://www.mdpi.com/1424-8220/22/8/3048)
+### [Wake Word Detector](https://github.com/shlbatra/TriggerWakeWordDetection)
+-	Built an open source wake word detector using Mozilla Common Voice Dataset & Google Speech to Text (85% + acc). 
+-	Created audio generation features using Log MelSpectogram, modelling using CNN and implemented server & client-side inference using AWS Beanstalk.
 
-Developed objective strategy for discovering optimal EEG bands based on signal power spectra using **Python**. This data-driven approach led to better characterization of the underlying power spectrum by identifying bands that outperformed the more commonly used band boundaries by a factor of two. The proposed method provides a fully automated and flexible approach to capturing key signal components and possibly discovering new indices of brain activity.
-
-![EEG Band Discovery](/assets/img/eeg_band_discovery.jpeg)
-
-### Decoding Physical and Cognitive Impacts of Particulate Matter Concentrations at Ultra-Fine Scales
-[Publication](https://www.mdpi.com/1424-8220/22/11/4240)
-
-Used **Matlab** to train over 100 machine learning models which estimated particulate matter concentrations based on a suite of over 300 biometric variables. We found biometric variables can be used to accurately estimate particulate matter concentrations at ultra-fine spatial scales with high fidelity (r2 = 0.91) and that smaller particles are better estimated than larger ones. Inferring environmental conditions solely from biometric measurements allows us to disentangle key interactions between the environment and the body.
-
-![Bike Study](/assets/img/bike_study.jpeg)
-
-## Talks & Lectures
-- Causality: The new science of an old question - GSP Seminar, Fall 2021
+### [Identifying Valued Repeat Buyers using Purchase History](https://github.com/shlbatra/Acquire-Value-Shoppers-Challenge)
+- Worked with transaction data of nearly 350 million rows and investigated post-incentive behavior for an acquisition campaign to predict which customers are most likely to repeat purchase
+- Implemented RFM technique for feature extraction and logistic regression for classifying repeat buyers
 
 
-- [Data Science YouTube](https://www.youtube.com/channel/UCa9gErQ9AE5jT2DZLjXBIdA)
-
-## Publications
-1. Talebi S., Lary D.J., Wijeratne L. OH., and Lary, T. Modeling Autonomic Pupillary Responses from External Stimuli Using Machine Learning (2019). DOI: 10.26717/BJSTR.2019.20.003446
-
-
-- [Data Science Blog](https://medium.com/@shawhin)
+## Technical Skills: 
+##### Cloud: GCP / AWS
+##### Database Programming:  Relational Databases (IBM DB2, SQL Server, Teradata), BigQuery, RedShift
+##### Programming Language: Python, Bash, SQL
+##### Data Pipeline Tools: DBT, DataProc(Spark), DataFlow(Beam), Informatica 9.1
+##### ML Packages: scikit-learn, numpy, pandas, ray, sklearn, tensorflow, pytorch, ray / xgboost-ray, auto ml, langchain
+##### ML Deployment Tools: SageMaker, Vertex, TFX, Kubeflow, Comet, MLFlow
+##### Dev Ops Tools: Airflow, Github (CI/CD), Docker, Kubernetes 
+##### Certifications: 
+- [Data Engineering Nanodegree](https://github.com/shlbatra/Udacity_DataEngineering_Projects) (Udacity)
+- [Deep Learning Specialization](https://github.com/shlbatra/Coursera_DeepLearning) (Coursera)
+- [Natural Language Processing Specialization](https://github.com/shlbatra/Coursera_NLPSpecialization) (Coursera)
+- Splunk Fundamentals & Advanced Searching (Splunk)
+- GIAC Security Essentials (GSEC)
