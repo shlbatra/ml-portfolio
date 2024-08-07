@@ -2,7 +2,7 @@
 
 ## Education
 - Machine Learning Engineer | FourthBrain.AI (_Sep 2021_)								       		
-- M.S., Data Science	|      UT Austin (_May 2015_)	 			        		
+- M.S., Data Science	| UT Austin (_May 2015_)	 			        		
 - B.Tech., Electronics & Communication | GGS Indraprastha University (_June 2010_)
 
 ## Work Experience
